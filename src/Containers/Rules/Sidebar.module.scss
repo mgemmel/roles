@@ -1,0 +1,33 @@
+$maincolor: rgba(255, 102, 0, 0.781);
+
+.container {
+    min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5px;
+  margin-top: 5px;
+  flex-grow: 1;
+  border: 2px solid $maincolor;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 0px rgba(128, 128, 128, 0.76);
+  padding-top: 5px;
+  .title {
+    display: flex;
+    align-items: flex-end;
+  }
+  .divider {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.76);
+    box-shadow: 0px 0px 2px 0px rgba(128, 128, 128, 0.76);
+    margin: 5px 0px 5px 0px;
+  }
+  .tree {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+}
